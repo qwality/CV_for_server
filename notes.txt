@@ -1,0 +1,63 @@
+- hodit projekty na git
+    - tetris, hexagons
+- čitelnost nad estetiku
+    - zvýraznit některé blocky
+    ? možná přidat nevýrazným písmem HTML kód k danému blocku(syntax ? přes nějaký plugin)
+- název souboru dokumentu daniel_sykora_cv.pdf
+    - podtžené odkazy(klikatelné)
+- velikost nejlépe A4 (prefered size nebo prefered --poměr)
+- pozor na hrubky (nechat to někoho přečíst)
+
+-  pořadí
+    1. jméno velké čitelné
+    2. název pozice, kterou hledám
+    3. kontakty: tel, email (udělat seznam ? li, ul)
+    4. souhrn, kým jsem teď, kým chci být (jaká je má ambice)
+        - větší písmo, nejlépe celou šířku
+        - 4 věty
+        - kamarád může pomoct se souhrnem, protože mou kariéru vnímá s nadhledem
+        ? kam směřuju, seznam pozic a na čem jsem pracoval
+    5. technologie:
+        - um technologie je když, když jsem v něm udělal pár projektů
+        - co umím, jaké znám technologie, jaké mě baví 
+    6. vypsané projekty, které jsem zkoušel, stačí i základní a částečně dokončené projekty
+        - odkazy, popis, kód ukázka
+            - screenshoty, videa, hlavně README
+    7. do vzdělání přidat i kurzy (coursera, pyladies)
+        - projekty jsou důležitější než kurzy
+    8. bývalá práce -: tint, GLS
+        - roky od-do
+        - velice stručně
+        - jen významné pozice
+        - krátce co mě to naučilo (dovednosti)
+    9. soft skills
+        - podložit reálným důkazem
+            - odolný vůči stresu
+                - jako kurýr jsem pracoval pod tlakem a mnohdy řešil více věcí najednou
+            - velká chuť učit se 
+                - ani nemůžu dokončit vlastní projekty protože vždy narazím na něco nového co bych se chtěl nebo měl naučit a to pro mě získá větší prioritu
+                ? podle adama je to ale blbost takhle říkat protože to pak vyzní, že nebudu dokončovat ani firemní projekty
+            - schopnost orientace
+            - poznám zákazníka na první pohled
+    10. jazyky
+        angličtina: intermediate almost advanced 85%
+    11. co vynechat
+        - slovo životopis
+        - fotka být nemusí
+    
+- motivační dopis
+    - předmět: "daniel sykora, nazev pozice"
+    - na míru dané spolčnosti
+        - vysněná firma, znám jejich produkt, znám tam lidi
+
+- udělat LinkedIn
+- udělat osobní web (pokud dám do kupy hosting)
+    - dát do kupy qwality.cz
+
+- v css pouzit primary a secondary color
+
+- zmeny
+    - header a footer aby presahovaly at pri overscrollu nejde videt useknutou hranu
+    - hodit pod blocky jeste papir, taky zaoblene rohy a stinovani
+    - 
+
