@@ -14,3 +14,5 @@ sudo update-alternatives --config python
 echo "alias pip='python -m pip'" >> ~/.bashrc
 
 uvicorn main:app --host 0.0.0.0 --port 80 & disown
+ps aux | grep uvicorn
+kill 'id'
