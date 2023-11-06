@@ -54,7 +54,8 @@ html{
 } */
 
 body{
-    max-width: calc(100vh*210/297);
+    /* max-width: calc(100vh*210/297); */
+    max-width: max(600px, calc(100vh*210/297));
     background-color: lightgray;
     display: flex;
     flex-direction: column;
