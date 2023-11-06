@@ -159,6 +159,7 @@ div {
     /* position: relative;
     top: -40px; */
     /* overflow: visible; */
+    text-decoration: none;
     background-color: rgba(180, 150, 108);
     
     /* box-shadow: var(--shadow); */
