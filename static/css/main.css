@@ -212,3 +212,16 @@ a:hover{
     display: grid;
     grid-template-columns: 1fr 1fr
 }
+@media screen and (width < 480px) {
+    /* *{
+        color: red;
+    } */
+    .content{
+        display: flex;
+        flex-direction: column;
+        flex: 1
+    }
+    .sidebar-left{
+        width: 100%;
+    }
+}
