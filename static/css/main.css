@@ -213,6 +213,16 @@ a:hover{
     display: grid;
     grid-template-columns: 1fr 1fr
 }
+.social-icon{
+    /* margin: 3px; */
+}
+.social-icon:hover{
+    /* background-color: red; */
+    /* position: relative; */
+    margin-top: var(--tiny);
+    /* margin-left: 1px; */
+}
+
 @media screen and (width < 480px) {
     /* *{
         color: red;
@@ -226,3 +236,4 @@ a:hover{
         width: 100%;
     }
 }
+
