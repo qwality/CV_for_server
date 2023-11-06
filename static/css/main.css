@@ -148,7 +148,7 @@ div {
 }
 
 .s2 {
-    flex: 2;
+    /* flex: 2; */
 }
 .header{
     /* position: relative;
@@ -177,11 +177,17 @@ div {
     padding-top: 0;
 }
 a{
-    color: crimson;
+    /* color: crimson; */
+    color: #735050;
+    /* color: aqua; */
 }
 a:hover{
     color: maroon;
 }
 .footer img{
     margin-left: var(--tiny);
+}
+
+.projects br{
+
 }
