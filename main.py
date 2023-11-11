@@ -12,8 +12,8 @@ app.mount(
     name="static")
 app.mount(
     "/.well-known/acme-challenge",
-    StaticFiles(directory='static/certificate'),
-    name='certificate')
+    StaticFiles(directory='static/certificates'),
+    name='certificates')
 
 @app.get('/')
 async def index(request: Request):
