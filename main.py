@@ -11,8 +11,8 @@ app.mount(
     StaticFiles(directory="static"),
     name="static")
 app.mount(
-    "/.well-known/acme-challenge",
-    StaticFiles(directory='static/.well-known/acme-challenge'),
+    "/.well-known",
+    StaticFiles(directory='static/.well-known'),
     name='cert')
 
 @app.get('/')
