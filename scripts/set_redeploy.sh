@@ -8,7 +8,7 @@ chmod +x "$SCRIPT_DIR/redeploy.sh"
 
 # Přidat cestu do proměnné PATH, pokud již není přidána
 if ! grep -q "$SCRIPT_DIR" ~/.bashrc; then
-    echo 'export PATH="$PATH:'"$SCRIPT_DIR"'"' >> ~/.bashrc
+    echo 'export PATH="$PATH:'"$SCRIPT_DIR/redeploy.sh"'"' >> ~/.bashrc
 fi
 
 # Aplikovat změny
