@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Request
+from fastapi import FastAPI, Request, Response, status
 from fastapi.templating import Jinja2Templates
 from fastapi.staticfiles import StaticFiles
 
@@ -19,4 +19,11 @@ app.mount(
 async def index(request: Request):
     return templates.TemplateResponse('main_cv.html', {'request':request})
 
-# @app.
+@app.get('/studiaLB')
+async def redirect_to_8080(request: Request):
+    return Response(
+        status_code=status.HTTP_307_TEMPORARY_REDIRECT,
+        headers={
+            'Location': 'http://localhost:8080'
+        }
+    )
