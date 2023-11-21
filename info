@@ -2,3 +2,6 @@ server_ip:      https://46.41.139.161
 domain_name:    https://www.qwality.fun
 server_admin:   https://cp.ionos.cz/servlet/Turbine/frm/single
 dns_admin:      https://client.wedos.com/dns/
+ssh:            root@qwality.fun
+
+ssl:            ??

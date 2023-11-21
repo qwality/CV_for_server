@@ -1,0 +1,12 @@
+sudo apt install -y nodejs npm
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+source ~/.bashrc
+
+nvm install 14 # posledni verze node podporovana Ubuntu GLIBC 2.27-3ubuntu1.6
+nvm use 14
+
+npm i -g yarn
+yarn global add @vue/cli
+
+vue -V

@@ -19,6 +19,11 @@ app.mount(
 async def index(request: Request):
     return templates.TemplateResponse('main_cv.html', {'request':request})
 
+@app.get('/test')
+async def test_end_point(request: Request):
+    return 'test resonse from uvicorn'
+
+
 @app.get('/studiaLB')
 async def redirect_to_8080(request: Request):
     return Response(
