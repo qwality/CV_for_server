@@ -1,0 +1,6 @@
+npm install express
+
+cd 'do slozky'
+
+npm init -y
+npm install express

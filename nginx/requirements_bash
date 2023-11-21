@@ -4,4 +4,5 @@ apt install nginx
 /etc/nginx/sites-available/default
 
 sudo nginx -t
+
 nginx -s reload

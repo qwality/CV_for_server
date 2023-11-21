@@ -19,6 +19,10 @@ app.mount(
 async def index(request: Request):
     return templates.TemplateResponse('main_cv.html', {'request':request})
 
+@app.head('/')
+async def head(request: Request):
+    return None
+
 @app.get('/test')
 async def test_end_point(request: Request):
     return 'test resonse from uvicorn'
