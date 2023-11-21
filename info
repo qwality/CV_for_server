@@ -3,5 +3,5 @@ domain_name:    https://www.qwality.fun
 server_admin:   https://cp.ionos.cz/servlet/Turbine/frm/single
 dns_admin:      https://client.wedos.com/dns/
 ssh:            root@qwality.fun
-
+git_hub_repo:   
 ssl:            ??

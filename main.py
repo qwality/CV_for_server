@@ -23,6 +23,10 @@ async def index(request: Request):
 async def test_end_point(request: Request):
     return 'test resonse from uvicorn'
 
+@app.get('/{path:path}')
+async def catch_other(request: Request, path: str):
+    return f"Toto je catch-all koncový bod pro cestu: {path}"
+
 
 @app.get('/studiaLB')
 async def redirect_to_8080(request: Request):
