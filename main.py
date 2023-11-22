@@ -27,6 +27,10 @@ async def head(request: Request):
 async def test_end_point(request: Request):
     return 'test resonse from uvicorn'
 
+@app.get('/response-test')
+async def response_test(request: Request):
+    return await request.json()
+
 @app.get('/{path:path}')
 async def catch_other(request: Request, path: str):
     return f"Toto je catch-all koncový bod pro cestu: {path}"
