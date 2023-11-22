@@ -27,9 +27,10 @@ async def head(request: Request):
 async def test_end_point(request: Request):
     return 'test resonse from uvicorn'
 
-@app.get('/response-test')
-async def response_test(request: Request):
-    return await request.json()
+@app.get('/request-test')
+async def request_test(request: Request):
+    json_request = await request.json()
+    return json_request
 
 @app.get('/{path:path}')
 async def catch_other(request: Request, path: str):
