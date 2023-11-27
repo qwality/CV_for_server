@@ -4,3 +4,5 @@ cd 'do slozky'
 
 npm init -y
 npm install express
+
+ndoe app.js
